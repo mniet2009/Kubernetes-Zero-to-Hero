@@ -157,7 +157,7 @@ In this example, we are enabling the Encryption Provider for Secrets resources u
 
 #### Configure the key management system to store and manage encryption keys.
 
-The Encryption Provider requires a key management system to store and manage encryption keys. You can use a cloud-based key management system like Google Cloud KMS or Amazon Web Services KMS, or a self-hosted key management system like HashiCorp Vault.
+The Encryption Provider requires a key management system to store and manage encryption keys. You can use a cloud-based key management system like Google Cloud KMS or Amazon Web Services KMS, or a self-hosted key management system like HashiCorp Vault...
 
 You must configure the key management system to generate a key and give the Kubernetes API server access to the key. The specific steps to do this depend on the key management system you are using.
 
